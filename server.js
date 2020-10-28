@@ -4,7 +4,7 @@ const app = express();
 
 //connect database
 connectDB();
-app.get('/',(req,res)=>res.send('API RUNNING'));
+//app.get('/',(req,res)=>res.send('API RUNNING'));
 
 //INIT middleware
 
